@@ -3,21 +3,33 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<script src="main.js"></script>
+<script src="main.js" defer></script>
+<link rel="stylesheet" href="style.css" />
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 <title>Rock Paper Scissors</title>
 </head>
 <body>
-<p>This was the final draft. See also the <a href="index1.html">first draft</a></p>
-<h1>How to play it</h1>
-<ol>
-<li>Open Console: <code>CTRL + SHIFT + I</code></li>
-<li>Click <strong>Start Game</strong></code></li>
-<li>Input your choice according to instructions</code></li>
-</ol>
-<h1>Want to contribute?</h1>
-<p><a href="https://www.github.com/fideldemoz/Rock-Paper-Scissors-Project">Pull a request</a></p>
-<button class="botao">Start game</button>
-
-<script>document.querySelector('.botao').addEventListener("click", game);</script>
+	<div class="page">
+		<div> 
+		<button class="rock"></button>
+		<button class="scissors"></button>
+		<button class="paper"></button>
+		</div>
+		<div class="results">
+		<p></p>
+		<p>You - </p>
+		<p> Computer - </p>
+		</div>
+		<div class="credits">
+			<a href="https://www.flaticon.com/free-icons/rock" title="rock icons">Rock icons created by Nadiinko - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/cut" title="cut icons">Cut icons created by Tomas Knop - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/document" title="document icons">Document icons created by smalllikeart - Flaticon</a>
+			<span>Created by <a href="https://www.github.com/fideldemoz">Fideldemoz</a> for submission at The Odin Project</span>
+		</div>
+	</div>
+	
 </body>
 </html>

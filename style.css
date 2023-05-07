@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	background-color: rgba(100,255,250,1);
+}
+
+.page {
+	background-color: rgba(10,200,100,1);
+	width: 80%;
+	margin: 20vh auto;
+	height: 60vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	gap: 28px;
+}
+
+button {
+	font-size: 18px;
+	background-color: gray;
+	padding: 8px 6px;
+	border-radius: 4px;
+	box-shadow: 0;
+	border: 0;
+	margin-top: 18px;
+	font-weight: bold;
+	width: 100px;
+	height: 40px;
+}
+
+.results {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	flex-wrap: wrap;
+	margin-top: 18px;
+}
+
+.results p:first-child {
+	width: 100%;
+	line-height: 2;
+	margin-bottom: 18px;
+}
+
+.paper {
+	background: url('paper.png') rgba(100,255,250,0.7);
+}
+
+.scissors {
+	background: url('scissors.png') rgba(100,255,250,0.7);
+}
+
+.rock {
+	background: url('rock.png') rgba(100,255,250,0.7);
+}
+.rock, .paper, .scissors {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+a {
+	color: grey;
+	font-weight: light;
+}
+
+.credits {
+	display: flex;
+	flex-direction: column;
+}
